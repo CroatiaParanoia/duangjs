@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "ES2015",
+    "target": "ES5",
+    "strict": true,
+    "lib": ["esnext"],
+    "declaration": true,
+    "declarationMap": false,
+    "outDir": "dist",
+    "declarationDir": "types",
+    "baseUrl": ".",
+    "esModuleInterop": true
+  },
+  "include": ["src/*.ts", "src/**/*.ts"],
+  "exclude": ["node_modules", "lib", "types", "dist"]
+}
